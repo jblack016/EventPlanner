@@ -1,0 +1,92 @@
+body {
+	max-width: 1080px;
+	margin: auto;
+	background-color: #b6cade;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	border: 2px solid #ced7dd;
+	table-layout: fixed;
+	display: table;
+}
+tr {
+	border-bottom: 1px solid #ddd;
+	background-color:#E2E3E5;
+}
+td {
+	padding: 16px;
+	display: table-cell;
+	max-width: 0px;
+	text-align: center;
+}
+.in-line {
+	display: inline-block;
+}
+.center {
+	text-align: center;
+}
+.float-right {
+	text-align: right;
+}
+.float-left {
+	text-align: left;
+}
+.input {
+	width: 100%;
+}
+
+.pad{
+	padding: 5px;
+}
+
+.viewTable{
+	width: 600px;
+	
+}
+
+.box{
+	height: 200px;
+	width: 600px;
+	border: 2px solid black;
+	margin: 10px;
+	background-color: #E2E3E5;
+}
+
+.box-btn{
+	width: 600px;
+	/* border: 2px solid black; */
+	margin-bottom: 10px;
+}
+.center-test {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+}
+
+.right {
+  float: right;
+  width: 300px;
+  padding: 10px;
+}
+
+.box-event{
+	height: 375px;
+	width: 500px;
+	border: 2px solid black;
+	padding: 20px;
+	background-color: #E2E3E5;
+}
+
+.box-guest{
+	height: 225px;
+	width: 500px;
+	border: 2px solid black;
+	padding: 20px;
+	background-color: #E2E3E5;
+}
+
+
